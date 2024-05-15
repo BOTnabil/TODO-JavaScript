@@ -1,0 +1,35 @@
+#btn {
+    cursor: pointer;
+    display: flex;
+    margin: 10px;
+    width: 500px;
+    justify-content: center;
+}
+
+#todoCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.todoCard {
+    position: relative;
+    display: flex;
+}    
+
+.task {
+    display: flex;
+    margin-left: 10px;
+}
+
+.delBtn {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+#compteur {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
